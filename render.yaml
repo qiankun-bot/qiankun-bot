@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: qk-community-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 8703063744:AAEW0qb7jDkF9UHxQUqGULsc54y42HXi8Rc

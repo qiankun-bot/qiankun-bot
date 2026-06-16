@@ -1,0 +1,5 @@
+python-telegram-bot==22.8
+flask==3.1.1
+httpx==0.28.1
+telethon==1.43.2
+requests==2.32.3
